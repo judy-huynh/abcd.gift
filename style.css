@@ -18,7 +18,7 @@ body, html {
 }
 
 .search-box {
-    width: 80%;
+    width: 100%;
     padding: 10px;
     font-size: 18px;
     border: 1px solid #ddd;
@@ -32,9 +32,10 @@ body, html {
     border: 1px solid #f8f9fa;
     color: #3c4043;
     font-size: 14px;
+    cursor: pointer;
 }
 
 .buttons button:hover {
     border: 1px solid #c6c6c6;
-    cursor: pointer;
+    background-color: #e8e8e8;
 }

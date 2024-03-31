@@ -1,0 +1,40 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+}
+
+.search-container {
+    text-align: center;
+}
+
+.logo {
+    margin-bottom: 20px;
+    width: 272px;
+    height: auto; 
+}
+
+.search-box {
+    width: 80%;
+    padding: 10px;
+    font-size: 18px;
+    border: 1px solid #ddd;
+    margin-bottom: 20px;
+}
+
+.buttons button {
+    padding: 10px 20px;
+    margin-right: 10px;
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    color: #3c4043;
+    font-size: 14px;
+}
+
+.buttons button:hover {
+    border: 1px solid #c6c6c6;
+    cursor: pointer;
+}
